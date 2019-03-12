@@ -5,7 +5,7 @@ int reverse(int n)
     int tmp;
     for(int i = n; i > 0; i = i / 10)
     {
-        tmp = i % 10;//to get the face values of all places of a digit one by one starting from one-place to upper
+        tmp = i % 10; //to get the face values of all digits of a number one by one starting from one-place to upper
         printf("%d",tmp);
 
     }
